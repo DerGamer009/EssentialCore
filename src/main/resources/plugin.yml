@@ -1,0 +1,17 @@
+name: EssentialCore
+main: net.devvoxel.essentialcore.EssentialCore
+version: 1.0.0
+api-version: 1.21
+commands:
+  heal:
+    description: Heal the player
+  feed:
+    description: Feed the player
+  sethome:
+    description: Set home location
+  home:
+    description: Teleport to home
+  setspawn:
+    description: Set the server spawn location
+  spawn:
+    description: Teleport to server spawn
