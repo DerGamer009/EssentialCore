@@ -15,3 +15,77 @@ commands:
     description: Set the server spawn location
   spawn:
     description: Teleport to server spawn
+  afk:
+    description: Toggle AFK status
+  fly:
+    description: Toggle flying
+  day:
+    description: Set the world time to day
+  night:
+    description: Set the world time to night
+  gamemode:
+    description: Toggle or set your gamemode
+  god:
+    description: Toggle invulnerability
+  help:
+    description: List available commands
+    aliases: [ehelp]
+  balance:
+    description: Show your balance
+    aliases: [bal, ebal, ebalance, money, emoney]
+  pay:
+    description: Pay another player
+  setmoney:
+    description: Set a player's balance
+permissions:
+  essentialcore.heal:
+    description: Use /heal
+    default: op
+  essentialcore.feed:
+    description: Use /feed
+    default: op
+  essentialcore.sethome:
+    description: Use /sethome
+    default: true
+  essentialcore.home:
+    description: Use /home
+    default: true
+  essentialcore.setspawn:
+    description: Use /setspawn
+    default: op
+  essentialcore.spawn:
+    description: Use /spawn
+    default: true
+  essentialcore.afk:
+    description: Use /afk
+    default: true
+  essentialcore.fly:
+    description: Use /fly
+    default: op
+  essentialcore.day:
+    description: Use /day
+    default: op
+  essentialcore.night:
+    description: Use /night
+    default: op
+  essentialcore.gamemode:
+    description: Use /gamemode
+    default: op
+  essentialcore.god:
+    description: Use /god
+    default: op
+  essentialcore.help:
+    description: Use /help
+    default: true
+  essentialcore.balance:
+    description: Use /balance
+    default: true
+  essentialcore.balance.other:
+    description: View another player's balance
+    default: op
+  essentialcore.pay:
+    description: Use /pay
+    default: true
+  essentialcore.setmoney:
+    description: Use /setmoney
+    default: op
